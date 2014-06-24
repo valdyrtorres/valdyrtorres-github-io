@@ -4,7 +4,7 @@
   <title><![CDATA[Aprendiz de Inovador]]></title>
   <link href="http://www.innovador.com.br/atom.xml" rel="self"/>
   <link href="http://www.innovador.com.br/"/>
-  <updated>2014-06-24T05:50:55-03:00</updated>
+  <updated>2014-06-24T06:17:59-03:00</updated>
   <id>http://www.innovador.com.br/</id>
   <author>
     <name><![CDATA[Valdir Torres Borges]]></name>
@@ -12,6 +12,53 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[O Que Eu Aprendi Ao Hospedar O Octopress No GitHub]]></title>
+    <link href="http://www.innovador.com.br/blog/2014/06/24/o-que-eu-aprendi-ao-hospedar-o-octopress-no-github/"/>
+    <updated>2014-06-24T06:05:05-03:00</updated>
+    <id>http://www.innovador.com.br/blog/2014/06/24/o-que-eu-aprendi-ao-hospedar-o-octopress-no-github</id>
+    <content type="html"><![CDATA[<p>Eu tive algumas dificuldades de hospedar o meu blog no Github. Estava obtendo o seguinte erro:</p>
+
+<p>&lsquo;## Pushing generated _deploy website
+To git@github.com:valdyrtorres/valdyrtorres.github.io.git
+ ! [rejected]        master &ndash;> master (non-fast-forward)
+error: failed to push some refs to &#8216;git@github.com:valdyrtorres/valdyrtorres.github.io.git&rsquo;
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. &lsquo;git pull&rsquo;)
+hint: before pushing again.
+hint: See the &lsquo;Note about fast-forwards&rsquo; in &lsquo;git push &mdash;help&rsquo; for details.</p>
+
+<p>Após exaustivas buscas na Internet, no google, mesmo em meu site favorito que é o stackoverflow não
+conseguia resolver. Ressalto que li atentamente a documentação do Git a respeito do non-fast-forward e bla-bla.</p>
+
+<p>Finalmente encontrei a solução no seguinte site:</p>
+
+<p><a href="http://allenyee.me/blog/2013/08/21/what-i-learned-from-hosting-octopress-on-github/">http://allenyee.me/blog/2013/08/21/what-i-learned-from-hosting-octopress-on-github/</a></p>
+
+<p>Obrigado Allen!</p>
+
+<p>Abaixo segue a transcrição da solução:</p>
+
+<p>Vá para o diretório _deploy</p>
+
+<p>cd octopress/_deploy</p>
+
+<p>Como o branch master está nesse diretório (_deploy), execute:</p>
+
+<p>   $ git pull origin master</p>
+
+<p>Com ele você resolve os possíveis conflitos. Retorne para o diretório octopress:</p>
+
+<p>   $ cd ..</p>
+
+<p>Faça o deploy:</p>
+
+<p>   $ rake deploy</p>
+
+<p>Agora tudo funcionou.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Uso Do Twitter Para Aulas E Informações Educacionais]]></title>
