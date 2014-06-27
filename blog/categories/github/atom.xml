@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Github | Aprendiz de Inovador]]></title>
-  <link href="http://www.innovador.com.br/blog/categories/github/atom.xml" rel="self"/>
-  <link href="http://www.innovador.com.br/"/>
-  <updated>2014-06-24T06:17:59-03:00</updated>
-  <id>http://www.innovador.com.br/</id>
+  <link href="http://valdyrtorres.github.io/blog/categories/github/atom.xml" rel="self"/>
+  <link href="http://valdyrtorres.github.io/"/>
+  <updated>2014-06-27T05:13:48-03:00</updated>
+  <id>http://valdyrtorres.github.io/</id>
   <author>
     <name><![CDATA[Valdir Torres Borges]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[O Que Eu Aprendi Ao Hospedar O Octopress No GitHub]]></title>
-    <link href="http://www.innovador.com.br/blog/2014/06/24/o-que-eu-aprendi-ao-hospedar-o-octopress-no-github/"/>
+    <link href="http://valdyrtorres.github.io/blog/2014/06/24/o-que-eu-aprendi-ao-hospedar-o-octopress-no-github/"/>
     <updated>2014-06-24T06:05:05-03:00</updated>
-    <id>http://www.innovador.com.br/blog/2014/06/24/o-que-eu-aprendi-ao-hospedar-o-octopress-no-github</id>
+    <id>http://valdyrtorres.github.io/blog/2014/06/24/o-que-eu-aprendi-ao-hospedar-o-octopress-no-github</id>
     <content type="html"><![CDATA[<p>Eu tive algumas dificuldades de hospedar o meu blog no Github. Estava obtendo o seguinte erro:</p>
 
 <p>&lsquo;## Pushing generated _deploy website
